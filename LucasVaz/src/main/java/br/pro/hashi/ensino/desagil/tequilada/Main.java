@@ -38,9 +38,11 @@ public class Main {
 					else{
 						certo=certo+" ";
 					}
+					
 				
 				}
-				System.out.println(certo);
+				lineRead=certo;
+				System.out.println(lineRead);
 				lineRead = br.readLine();
 			}
 		} catch (IOException e) {
